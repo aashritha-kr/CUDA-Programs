@@ -1,8 +1,6 @@
 #include <stdio.h>
-
 #define N 4
 //no of nodes
-
 __device__ int total_edges=0;
 
 __global__ void kernel(int * adjmatrix){
